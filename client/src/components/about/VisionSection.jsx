@@ -7,7 +7,7 @@ export default function VisionSection() {
     <section className="bg-slate-50 py-20">
       <Container>
         <SectionTitle title="Vision" subtitle="About" />
-        <Paragraph className="max-w-3xl">Placeholder copy for the vision section of an about page.</Paragraph>
+        <Paragraph className="max-w-3xl">Placeholder copy for the vision section of an about Page.</Paragraph>
       </Container>
     </section>
   );

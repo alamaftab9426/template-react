@@ -1,0 +1,17 @@
+/* Minimal global styles */
+:root{
+  --bg:#f8f9fa;
+  --text:#212529;
+  --accent:#0d6efd;
+}
+html,body,#root{
+  height:100%;
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background:var(--bg);
+  color:var(--text);
+}
+.app-header{ padding:16px; background:#fff; border-bottom:1px solid #e9ecef; }
+.app-main{ padding:24px; }
+a{ color:var(--accent); text-decoration:none }
+a:hover{ text-decoration:underline }
